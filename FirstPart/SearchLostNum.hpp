@@ -14,6 +14,7 @@
 #endif /* SearchLostNum_hpp */
 
 /**
- *
+ * 适用所有整数最多出现一次
  *
  */
+void print_missing_integers();

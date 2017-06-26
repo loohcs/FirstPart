@@ -17,10 +17,10 @@
 
 #include <time.h>
 
-#endif /* BitSort_hpp */
-
 void sortBySet();
 
 void sortByBit();
 
 void sortByBitSet();
+
+#endif /* BitSort_hpp */

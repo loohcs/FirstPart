@@ -16,6 +16,8 @@
 
 #include "RotateVetor.hpp"
 
+#include "SearchLostNum.hpp"
+
 using namespace std;
 
 int main(int argc, char *argv[]) {
@@ -31,7 +33,9 @@ int main(int argc, char *argv[]) {
     /// 使用位图压缩，构造整形数组存储位图信息并排序
     //sortByBit();
     
-    rotateVetor(5, 12);
+    //rotateVetor(5, 12);
+    
+    print_missing_integers();
     
     return 0;
 }

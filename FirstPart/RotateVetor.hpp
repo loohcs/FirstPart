@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 
+void rotateVetor(int rotdist, int size);
+
 #endif /* RotateVetor_hpp */
 
-void rotateVetor(int rotdist, int size);
